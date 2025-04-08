@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# 🌟 **DragonBall API** 🌟
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![DragonBall API](https://web.dragonball-api.com/images-compress/logo_dragonballapi.webp)](https://www.dragonballapi.com)
 
-## Available Scripts
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-In the project directory, you can run:
+A **API DragonBall** oferece acesso a uma vasta base de dados do universo DragonBall, com informações sobre **personagens**, **ataques**, **episódios** e muito mais! 🥊
 
-### `npm start`
+✨ **Exploração rápida e fácil do universo DragonBall:** ✨  
+- 🔹 **Acesse dados detalhados de personagens**  
+- 🔹 **Explore ataques e habilidades especiais**  
+- 🔹 **Obtenha resumos de episódios e sagas**  
+- 🚀 **Explore o universo de DragonBall em minutos** 🚀  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🔥 **Recursos da API** 🔥
 
-### `npm test`
+A **DragonBall API** é rica em recursos para explorar e interagir com o universo de DragonBall:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 🔄 **Importação fácil** de dados de personagens, ataques e episódios diretamente do banco de dados.
+- 🔍 **Pesquisa avançada** para encontrar rapidamente personagens, ataques ou episódios específicos.
+- ✨ **Interação em tempo real** com a API para criar novas histórias e evoluções.
+- 💥 **Informações detalhadas** sobre status de batalha, evolução, aliados, e mais.
 
-### `npm run build`
+Markdown é uma linguagem de marcação leve e legível, como descrito por [John Gruber](http://daringfireball.net):
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+> O objetivo principal da sintaxe de formatação do Markdown é torná-la o mais legível possível. Um documento formatado em Markdown deve ser publicável como está, como texto simples, sem parecer que foi marcado com tags ou instruções de formatação.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Esse texto que você está lendo foi escrito em Markdown!** 🎉
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🔑 **Endpoints da API DragonBall** 🔑
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Aqui estão os principais **endpoints** que você pode usar para explorar e acessar informações sobre o universo DragonBall! 💥
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 🔹 **GET /characters**
+Retorna uma lista de **todos os personagens** do universo DragonBall.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 🔹 **GET /characters/{id}**
+Retorna **detalhes de um personagem específico** com suas características e habilidades.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 🔹 **GET /attacks**
+Retorna uma lista de **ataques e habilidades especiais** usados pelos personagens.
 
-## Learn More
+### 🔹 **GET /episodes**
+Retorna uma lista de **episódios** com resumos e detalhes importantes.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 🔹 **GET /sagas**
+Retorna **informações sobre as sagas** de DragonBall, incluindo contexto e evolução dos personagens.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## ⚡ **Exemplo de Uso** ⚡
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 🦸‍♂️ **Exemplo de Pesquisa de Personagem**:
 
-### Analyzing the Bundle Size
+Pesquise e obtenha informações detalhadas sobre um personagem específico, como o **Goku**!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```sh
+GET https://api.dragonball.com/characters/1
